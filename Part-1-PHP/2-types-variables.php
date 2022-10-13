@@ -33,23 +33,23 @@ $there_is_no_spoon   = null;
 $there_is_no_spoon_1 = NULL;
 
 const HELLO = 'howdy';
-define( 'HELLO', '¡hola!' );
+define('HELLOAGAIN', '¡hola!');
 
 // Concatenate strings.
-var_dump( HELLO . '! ' . $my_string );
+var_dump(HELLO . '! ' . $my_string);
 
 // Interpolation.
-var_dump( "Why $my_string I was just about to call you." );
+var_dump("Why $my_string I was just about to call you.");
 
 // We'll look at objects and arrays later.
 // Callable, iterable, and resource most likely in another course.
 
 echo '<pre>';
-var_dump( $trueOrFalse );
-var_dump( $true_or_false );
-var_dump( $some_number );
-var_dump( $some_float );
-var_dump( $my_string );
-var_dump( $there_is_no_spoon );
-var_dump( $there_is_no_spoon_1 );
-var_dump( HELLO );
+var_dump($trueOrFalse);
+var_dump($true_or_false);
+var_dump($some_number);
+var_dump($some_float);
+var_dump($my_string);
+var_dump($there_is_no_spoon);
+var_dump($there_is_no_spoon_1);
+var_dump(HELLO);
